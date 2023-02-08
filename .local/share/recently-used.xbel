@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/rohini/Pictures/Screenshots/Screenshot%20from%202023-02-07%2021-31-28.png" added="2023-02-07T16:01:28.441093Z" modified="2023-02-07T16:01:28.441098Z" visited="2023-02-07T16:01:28.441094Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-02-07T16:01:28.441096Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rohini/Videos/Screencasts/Screencast%20from%2007-02-23%2009:34:02%20PM%20IST.webm" added="2023-02-07T16:04:21.600985Z" modified="2023-02-07T16:04:24.843052Z" visited="2023-02-07T16:04:21.600985Z">
+    <title>Screencast from 07-02-23 09:34:02 PM IST.webm</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/webm"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Shell.Screencast" exec="&apos;org.gnome.Shell.Screencast %u&apos;" modified="2023-02-07T16:04:21.600989Z" count="1"/>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2023-02-07T16:04:24.843048Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rohini/Pictures/Screenshots/Screenshot%20from%202023-02-08%2010-50-54.png" added="2023-02-08T05:20:54.158833Z" modified="2023-02-08T05:20:54.158836Z" visited="2023-02-08T05:20:54.158833Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-02-08T05:20:54.158834Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,12 @@
+2023/02/08-10:33:13.363 76f Reusing MANIFEST /home/rohini/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/02/08-10:33:13.363 76f Recovering log #3
+2023/02/08-10:33:13.365 76f Reusing old log /home/rohini/.config/google-chrome/Default/Sync Data/LevelDB/000003.log 
+2023/02/08-10:37:36.999 80e Level-0 table #5: started
+2023/02/08-10:37:37.003 80e Level-0 table #5: 155076 bytes OK
+2023/02/08-10:37:37.005 80e Delete type=0 #3
+2023/02/08-13:38:23.246 232c Level-0 table #7: started
+2023/02/08-13:38:23.248 232c Level-0 table #7: 90743 bytes OK
+2023/02/08-13:38:23.250 232c Delete type=0 #4
+2023/02/08-16:00:13.724 3901 Level-0 table #9: started
+2023/02/08-16:00:13.731 3901 Level-0 table #9: 102456 bytes OK
+2023/02/08-16:00:13.733 3901 Delete type=0 #6

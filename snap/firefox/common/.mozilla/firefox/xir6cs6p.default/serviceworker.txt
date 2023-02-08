@@ -1,0 +1,13 @@
+9
+
+https://web.whatsapp.com/
+https://web.whatsapp.com/serviceworker.js
+true
+{edcae5e5-6f30-4aa5-895c-4ada5d2cab30}
+0
+1675785524628107
+1675785524628989
+1675785524598727
+0
+true
+#

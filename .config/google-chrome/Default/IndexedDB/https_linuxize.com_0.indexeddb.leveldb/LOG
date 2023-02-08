@@ -1,0 +1,6 @@
+2023/02/08-15:51:04.087 3657 Creating DB /home/rohini/.config/google-chrome/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb since it was missing.
+2023/02/08-15:51:04.092 3657 Reusing MANIFEST /home/rohini/.config/google-chrome/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/08-15:56:06.202 36ca Level-0 table #5: started
+2023/02/08-15:56:06.204 36ca Level-0 table #5: 9528 bytes OK
+2023/02/08-15:56:06.205 36ca Delete type=0 #3
+2023/02/08-15:56:06.206 36ca Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,7 @@
+2023/02/08-13:35:21.715 276b Reusing MANIFEST /home/rohini/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/08-13:35:21.715 276b Recovering log #3
+2023/02/08-13:35:21.720 276b Reusing old log /home/rohini/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2023/02/08-13:36:00.847 232c Level-0 table #5: started
+2023/02/08-13:36:00.853 232c Level-0 table #5: 258732 bytes OK
+2023/02/08-13:36:00.854 232c Delete type=0 #3
+2023/02/08-13:36:00.855 232c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
