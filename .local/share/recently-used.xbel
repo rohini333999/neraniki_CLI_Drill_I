@@ -38,4 +38,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/rohini/Pictures/Screenshots/Screenshot%20from%202023-02-08%2017-53-39.png" added="2023-02-08T12:23:39.807332Z" modified="2023-02-08T12:23:39.807336Z" visited="2023-02-08T12:23:39.807333Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gnome-shell %u&apos;" modified="2023-02-08T12:23:39.807334Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

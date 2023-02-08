@@ -1,2 +1,3 @@
-2023/02/07-21:52:12.384 4d97 Creating DB /home/rohini/.config/google-chrome/Default/shared_proto_db/metadata since it was missing.
-2023/02/07-21:52:12.388 4d97 Reusing MANIFEST /home/rohini/.config/google-chrome/Default/shared_proto_db/metadata/MANIFEST-000001
+2023/02/08-10:33:13.477 80f Reusing MANIFEST /home/rohini/.config/google-chrome/Default/shared_proto_db/metadata/MANIFEST-000001
+2023/02/08-10:33:13.477 80f Recovering log #3
+2023/02/08-10:33:13.477 80f Reusing old log /home/rohini/.config/google-chrome/Default/shared_proto_db/metadata/000003.log 

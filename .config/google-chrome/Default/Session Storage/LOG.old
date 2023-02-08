@@ -1,2 +1,6 @@
-2023/02/07-21:52:27.437 5 Creating DB /home/rohini/.config/google-chrome/Default/Session Storage since it was missing.
-2023/02/07-21:52:27.447 5 Reusing MANIFEST /home/rohini/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2023/02/08-10:33:13.444 3 Reusing MANIFEST /home/rohini/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2023/02/08-10:33:13.445 3 Recovering log #3
+2023/02/08-10:33:13.445 3 Reusing old log /home/rohini/.config/google-chrome/Default/Session Storage/000003.log 
+2023/02/08-15:05:38.681 41 Level-0 table #5: started
+2023/02/08-15:05:38.689 41 Level-0 table #5: 34351 bytes OK
+2023/02/08-15:05:38.691 41 Delete type=0 #3

@@ -1,2 +1,3 @@
-2023/02/07-21:53:57.613 4da5 Creating DB /home/rohini/.config/google-chrome/Default/Service Worker/Database since it was missing.
-2023/02/07-21:53:57.615 4da5 Reusing MANIFEST /home/rohini/.config/google-chrome/Default/Service Worker/Database/MANIFEST-000001
+2023/02/08-10:33:13.466 80f Reusing MANIFEST /home/rohini/.config/google-chrome/Default/Service Worker/Database/MANIFEST-000001
+2023/02/08-10:33:13.466 80f Recovering log #3
+2023/02/08-10:33:13.467 80f Reusing old log /home/rohini/.config/google-chrome/Default/Service Worker/Database/000003.log 
