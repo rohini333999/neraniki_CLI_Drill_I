@@ -32,16 +32,24 @@ head -200 book.txt | tail -100
 
 //unique words
   rohini@rohini-HP-Laptop-15s-du3xxx:~$ cat book.txt | sort |uniq -c |wc -l
+
+//process and ports
+
+ps -ejf | grep "chrome"
       
 //KIll chrome process
 rohini@rohini-HP-Laptop-15s-du3xxx:~$ ps aux | grep chrome
 //used 1st pid
 rohini@rohini-HP-Laptop-15s-du3xxx:~$ kill 2328
 
-ps -ejf | grep "chrome"
+//List the top 3 processes by CPU usage.
+//List the top 3 processes by memory usage.
+
 ps aux --sort -%cpu | head
 ps -eo pid,ppid,cmd,comm,%cpu --sort -%cpu | head
 ps -eo pid,ppid,cmd,comm,%cpu,%mem --sort -%mem | head
+
+//start a Python HTTP server on port 8000
 
 rohini@rohini-HP-Laptop-15s-du3xxx:~$ python3 -V
 Python 3.10.6
@@ -59,6 +67,7 @@ rohini@rohini-HP-Laptop-15s-du3xxx:~$ kill -9 24911
 
 //install net-tools
 rohini@rohini-HP-Laptop-15s-du3xxx:~$ sudo apt install net-tools
+
 //Display all active connections and the corresponding TCP / UDP ports.
 rohini@rohini-HP-Laptop-15s-du3xxx:~$ netstat -lt
 
@@ -70,13 +79,9 @@ rohini@rohini-HP-Laptop-15s-du3xxx:~$ netstat -ltnup | grep ":5432"
  will not be shown, you would have to be root to see it all.)
 rohini@rohini-HP-Laptop-15s-du3xxx:~$ lsof -i:5432
 
-//removing packages-not solved
-ohini@rohini-HP-Laptop-15s-du3xxx:~$ apt-get remove nginx
-E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
-E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
-rohini@rohini-HP-Laptop-15s-du3xxx:~$ apt-get purge  nginx
-E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
-E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+//removing packages
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ sudo apt-get remove nginx
+
 
 //ip address
 rohini@rohini-HP-Laptop-15s-du3xxx:~$ ip r
