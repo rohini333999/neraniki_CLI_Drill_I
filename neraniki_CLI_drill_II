@@ -4,24 +4,33 @@ rohini@rohini-HP-Laptop-15s-du3xxx:~$ ps -eo pid,ppid,cmd,%mem,%cpu | head -5
       2       0 [kthreadd]                   0.0  0.0
       3       2 [rcu_gp]                     0.0  0.0
       4       2 [rcu_par_gp]                 0.0  0.0
+ 
+ //Download the contents of "Harry Potter and the Goblet of fire" using the command line from here
       
  curl https://raw.githubusercontent.com/bobdeng/owlreader/master/ERead/assets/books/Harry%20Potter%20and%20the%20Goblet%20of%20Fire.txt>book.txt
-  383  ls
-  384  head 3 book.txt
-  385  head -3 book.txt
-  386  tail -10 book.txt
-  387  cat book.txt | grep "Harry" | wc
-  388  grep -wc "Harry" book.txt
-  389  cat book.txt | wc
-  390  cat book.txt | grep "Harry" 
-  391  cat book.txt | grep "Harry" | wc
-  392  cat book.txt | grep "Ron" | wc
-  393  cat book.txt | grep "Herminoe" | wc
-  394  grep -wc "Herminoe" book.txt
-  395  cat book.txt | grep "Dumbledore" | wc
-  396  grep -wc "Dumbledore" book.txt
-  397  head -200 book.txt | tail -100
-  //unique words
+ 
+ //Print the first three lines in the book
+ head -3 book.txt
+ 
+//Print the last 10 lines in the book
+tail -10 book.txt
+
+//How many times do the following words occur in the book?
+//Harry
+//Ron
+//Hermione
+//Dumbledore
+
+cat book.txt | grep "Harry" | wc
+grep -wc "Harry" book.txt
+cat book.txt | grep "Ron" | wc
+cat book.txt | grep "Herminoe" | wc
+cat book.txt | grep "Dumbledore" | wc
+
+//Print lines from 100 through 200 in the book
+head -200 book.txt | tail -100
+
+//unique words
   rohini@rohini-HP-Laptop-15s-du3xxx:~$ cat book.txt | sort |uniq -c |wc -l
       
 //KIll chrome process
