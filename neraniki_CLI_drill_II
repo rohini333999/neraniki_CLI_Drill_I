@@ -1,1 +1,90 @@
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ ps -eo pid,ppid,cmd,%mem,%cpu | head -5
+    PID    PPID CMD                         %MEM %CPU
+      1       0 /sbin/init splash            0.1  0.0
+      2       0 [kthreadd]                   0.0  0.0
+      3       2 [rcu_gp]                     0.0  0.0
+      4       2 [rcu_par_gp]                 0.0  0.0
+      
+ curl https://raw.githubusercontent.com/bobdeng/owlreader/master/ERead/assets/books/Harry%20Potter%20and%20the%20Goblet%20of%20Fire.txt>book.txt
+  383  ls
+  384  head 3 book.txt
+  385  head -3 book.txt
+  386  tail -10 book.txt
+  387  cat book.txt | grep "Harry" | wc
+  388  grep -wc "Harry" book.txt
+  389  cat book.txt | wc
+  390  cat book.txt | grep "Harry" 
+  391  cat book.txt | grep "Harry" | wc
+  392  cat book.txt | grep "Ron" | wc
+  393  cat book.txt | grep "Herminoe" | wc
+  394  grep -wc "Herminoe" book.txt
+  395  cat book.txt | grep "Dumbledore" | wc
+  396  grep -wc "Dumbledore" book.txt
+  397  head -200 book.txt | tail -100
+  //unique words
+  rohini@rohini-HP-Laptop-15s-du3xxx:~$ cat book.txt | sort |uniq -c |wc -l
+      
+//KIll chrome process
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ ps aux | grep chrome
+//used 1st pid
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ kill 2328
 
+ps -ejf | grep "chrome"
+ps aux --sort -%cpu | head
+ps -eo pid,ppid,cmd,comm,%cpu --sort -%cpu | head
+ps -eo pid,ppid,cmd,comm,%cpu,%mem --sort -%mem | head
+
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ python3 -V
+Python 3.10.6
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ python3 -m http.server 8000
+
+//kill the python port 8000
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ ps
+    PID TTY          TIME CMD
+   7723 pts/0    00:00:00 bash
+  17815 pts/0    00:00:00 head
+  24911 pts/0    00:00:00 python3
+  26409 pts/0    00:00:00 ps
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ kill -9 24911
+
+
+//install net-tools
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ sudo apt install net-tools
+//Display all active connections and the corresponding TCP / UDP ports.
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ netstat -lt
+
+sudo python3 -m http.server 90
+
+//Find the pid of the process that is listening on port 5432
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ netstat -ltnup | grep ":5432"
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ lsof -i:5432
+
+//removing packages-not solved
+ohini@rohini-HP-Laptop-15s-du3xxx:~$ apt-get remove nginx
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ apt-get purge  nginx
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+//ip address
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ ip r
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ ifconfig
+
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ dig google.com
+ohini@rohini-HP-Laptop-15s-du3xxx:~$ nslookup google.com
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	google.com
+Address: 172.217.163.206
+Name:	google.com
+Address: 2404:6800:4007:810::200e
+
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ dig google.com
+
+//How to check if Internet is working using CLI?
+rohini@rohini-HP-Laptop-15s-du3xxx:~$ ping -c 3 google.com
