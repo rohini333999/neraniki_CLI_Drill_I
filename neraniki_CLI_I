@@ -1,1 +1,52 @@
-
+mkdir hello
+ls
+rm hello
+rm -r hello
+ls
+mkdir hello
+cd hello
+mkdir five
+mkdir one
+cd five
+mkdir six
+touch c.txt
+mkdir seven
+cd seven
+touch error.log
+ls
+cd .. ..
+cd ~
+cd hello
+cd one
+touch a.txt
+touch b.txt
+mkdir two
+ls
+cd two
+touch d.txtx
+mkdir three
+ls
+rm d.txtx
+ls
+touch d.txt
+cd three
+touch e.txt
+mkdi four
+mkdir four
+cd four
+touch access.log
+ls
+rm *.log
+cd ~
+cd hello
+cd five
+cd six
+cd seven
+ls
+mkdir seven
+ls
+cd /hello/five
+cd /hello /five
+mkdir hello
+rm hello
+rm -r hello
